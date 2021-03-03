@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021.03.03 13:39:18.920,C:\Users\sereg\Documents\Embarcadero\Studio\Projects\EchoServer.dproj=C:\Users\sereg\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021.03.03 13:39:39.501,C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\EchoServer\EchoServer.dproj=C:\Users\sereg\Documents\Embarcadero\Studio\Projects\EchoServer.dproj</Transaction>
+    <Transaction>2021.03.03 13:40:16.247,=C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\EchoServer\Unit1.pas</Transaction>
+    <Transaction>2021.03.03 13:40:31.637,C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\EchoServer\EchoPipeServer.pas=C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\EchoServer\Unit1.pas</Transaction>
+    <Transaction>2021.03.03 15:48:24.030,=C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\EchoServer\EchoServer.ridl</Transaction>
+    <Transaction>2021.03.03 15:48:24.155,=C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\EchoServer\EchoServer_TLB.pas</Transaction>
+  </Transactions>
+</BorlandProject>

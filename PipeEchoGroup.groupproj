@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CE77E1F7-CF8A-47F1-8D8C-B2396A1F7B6D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="PipeBuilder\PipeBuilder.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EchoServer\EchoServer.dproj">
+            <Dependencies>PipeBuilder\PipeBuilder.dproj</Dependencies>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PipeBuilder">
+        <MSBuild Projects="PipeBuilder\PipeBuilder.dproj"/>
+    </Target>
+    <Target Name="PipeBuilder:Clean">
+        <MSBuild Projects="PipeBuilder\PipeBuilder.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PipeBuilder:Make">
+        <MSBuild Projects="PipeBuilder\PipeBuilder.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EchoServer" DependsOnTargets="PipeBuilder">
+        <MSBuild Projects="EchoServer\EchoServer.dproj"/>
+    </Target>
+    <Target Name="EchoServer:Clean" DependsOnTargets="PipeBuilder:Clean">
+        <MSBuild Projects="EchoServer\EchoServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EchoServer:Make" DependsOnTargets="PipeBuilder:Make">
+        <MSBuild Projects="EchoServer\EchoServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PipeBuilder;EchoServer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PipeBuilder:Clean;EchoServer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PipeBuilder:Make;EchoServer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

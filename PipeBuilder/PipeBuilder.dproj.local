@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021.03.03 12:49:43.793,=C:\Users\sereg\Documents\Embarcadero\Studio\Projects\Project1.ridl</Transaction>
+    <Transaction>2021.03.03 12:49:43.806,=C:\Users\sereg\Documents\Embarcadero\Studio\Projects\Project1_TLB.pas</Transaction>
+    <Transaction>2021.03.03 12:50:19.360,C:\Users\sereg\Documents\Embarcadero\Studio\Projects\PipeBuilder.dproj=C:\Users\sereg\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021.03.03 12:50:29.348,C:\Users\sereg\Documents\Embarcadero\Studio\Projects\PipeBuilder.ridl=C:\Users\sereg\Documents\Embarcadero\Studio\Projects\Project1.ridl</Transaction>
+    <Transaction>2021.03.03 12:50:38.089,C:\Users\sereg\Documents\Embarcadero\Studio\Projects\PipeBuilder_TLB.pas=C:\Users\sereg\Documents\Embarcadero\Studio\Projects\Project1_TLB.pas</Transaction>
+    <Transaction>2021.03.03 13:02:26.471,C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\PipeBuilder\PipeBuilder_TLB.pas=C:\Users\sereg\Documents\Embarcadero\Studio\Projects\PipeBuilder_TLB.pas</Transaction>
+    <Transaction>2021.03.03 13:02:40.741,C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\PipeBuilder\PipeBuilder.ridl=C:\Users\sereg\Documents\Embarcadero\Studio\Projects\PipeBuilder.ridl</Transaction>
+    <Transaction>2021.03.03 13:02:48.765,C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\PipeBuilder\PipeBuilder.dproj=C:\Users\sereg\Documents\Embarcadero\Studio\Projects\PipeBuilder.dproj</Transaction>
+    <Transaction>2021.03.03 13:04:16.550,=C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\PipeBuilder\Unit1.pas</Transaction>
+    <Transaction>2021.03.03 13:06:31.946,C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\PipeBuilder\PipeBuilderUnit.pas=C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\PipeBuilder\Unit1.pas</Transaction>
+    <Transaction>2021.03.03 13:12:18.940,C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\PipeBuilder\PipeBuilderLib.ridl=C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\PipeBuilder\PipeBuilder.ridl</Transaction>
+    <Transaction>2021.03.03 13:12:18.971,C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\PipeBuilder\PipeBuilderLib_TLB.pas=C:\Users\sereg\OneDrive\ИП\BusinessPro\DelphiTask\PipeBuilder\PipeBuilder_TLB.pas</Transaction>
+  </Transactions>
+</BorlandProject>
